@@ -37,6 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Django apps for SEO
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
+    # https://docs.djangoproject.com/en/4.2/ref/contrib/sitemaps/
+    # Third-party apps
+    # 1. Django-meta. For SEO.
+    # https://django-meta.readthedocs.io/en/latest/index.html
+    'meta',
+    # Project apps
     'appblog.apps.AppblogConfig',
 ]
 
