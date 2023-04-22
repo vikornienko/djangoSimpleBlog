@@ -10,5 +10,5 @@ class PostSitemap(Sitemap):
     def items(self):
         return Post.objects.all()
 
-    def lasmod(self, obj):
-        return obj.updated
+    def lastmod(self, obj):
+        return obj.updated_at
