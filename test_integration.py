@@ -16,5 +16,5 @@ class Hosttest(LiveServerTestCase):
 
     def test_home_page(self):
         self.driver.get(f"{self.live_server_url}/blog/")
-        self.driver.save_screenshot("./other_files/screenshots/image.jpg")
+        self.driver.save_screenshot("./other_files/screenshots/image.png")
         assert "My Blog" in self.driver.title
